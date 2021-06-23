@@ -1,0 +1,10 @@
+try:
+    a="bbb"
+    b="aaa"
+    a=int(a)
+    b=int(b)
+    print(a/b)
+except(ZeroDivisionError):
+    print("Zerro")
+except(ValueError):
+    print("ValueError")
